@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +27,36 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  font-family: system-ui;
+  background: #5bb4c4;
+  color: white;
+  text-align: center;
+  width: 180px;
+  height: 240px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.title{
+  background-color: pink;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: #282c34;
+  border-radius: 2px;
+}
+
+.container{
+  text-align: center;
+}
+
+.div{
+  padding: 20px;
 }
 
 @keyframes App-logo-spin {
